@@ -40,9 +40,12 @@ export default {
     async removeRoom(id) {
       this.loading = true;
 
-      const res = await fetch(`http://localhost:4000/api/room/${id}`, {
-        method: "DELETE",
-      });
+      const res = await fetch(
+        `https://antic-backend.vercel.app/api/room/${id}`,
+        {
+          method: "DELETE",
+        }
+      );
       this.loading = false;
       if (!res.ok)
         return this.toast.add({
@@ -66,7 +69,7 @@ export default {
   },
   async mounted() {
     this.toast = useToast();
-    const response = await fetch("http://localhost:4000/api/room");
+    const response = await fetch("https://antic-backend.vercel.app/api/room");
     const json = await response.json();
     this.data = json.rooms;
     this.loading = false;

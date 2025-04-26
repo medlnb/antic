@@ -91,7 +91,7 @@ export default {
     SwiperSlide,
   },
   async setup() {
-    const response = await fetch("http://localhost:4000/api/room");
+    const response = await fetch("https://antic-backend.vercel.app/api/room");
     const json = await response.json();
     const rooms = json.rooms;
     const modules = [Navigation, Pagination];

@@ -70,7 +70,7 @@ export default {
 
         const data = new FormData();
         data.append("my_file", file);
-        const res = await fetch("http://localhost:4000/api/image", {
+        const res = await fetch("https://antic-backend.vercel.app/api/image", {
           method: "POST",
           body: data,
         });
@@ -100,7 +100,7 @@ export default {
     async handleSubmit() {
       if (!this.title || !this.imageUrl) return alert("Please fill all fields");
       this.loading = true;
-      const res = await fetch("http://localhost:4000/api/room", {
+      const res = await fetch("https://antic-backend.vercel.app/api/room", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
