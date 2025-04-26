@@ -1,9 +1,11 @@
 <template>
   <section class="max-w-[1140px] mx-auto px-6 py-20" id="next-section">
-    <h2 class="text-[55px] font-light merriweather text-secondary">
+    <h2
+      class="lg:text-[55px] text-[40px] font-light merriweather text-secondary"
+    >
       Find your room
     </h2>
-    <div class="lg:flex gap-6 py-[48px]">
+    <div class="lg:flex gap-6 lg:py-[48px] py-4">
       <p class="text-lg text-gray-500 lg:max-w-[165px] w-full pb-10">
         Dining room, bedroom, bathroom or office. Find what you need
       </p>

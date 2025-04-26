@@ -70,7 +70,7 @@ export default {
 
         const data = new FormData();
         data.append("my_file", file);
-        const res = await fetch("https://antic-backend.vercel.app/api/image", {
+        const res = await fetch("http://localhost:4000/api/image", {
           method: "POST",
           body: data,
         });
