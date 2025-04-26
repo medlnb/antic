@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+:root {
+  --color-primary: #a06056;
+  --color-secondary: #706458;
+  --color-success: #706458d9;
+}
+
+body {
+  /* background-color: #f3eee8; */
+}
+
+.merriweather {
+  font-family: Merriweather;
+}
+.varta {
+  font-family: Varta;
+}
+.karla {
+  font-family: Karla;
+}
+
+.loading-background {
+  background: linear-gradient(to right, rgb(118, 118, 118), white);
+  background-size: 200% auto;
+  animation: gradientAnimation 2s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
