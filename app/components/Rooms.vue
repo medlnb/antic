@@ -6,7 +6,7 @@
       Find your room
     </h2>
     <div class="lg:flex gap-6 lg:py-[48px] py-4">
-      <p class="text-lg text-gray-500 lg:max-w-[165px] w-full pb-10">
+      <p class="text-lg text-success lg:max-w-[165px] w-full pb-10">
         Dining room, bedroom, bathroom or office. Find what you need
       </p>
       <swiper

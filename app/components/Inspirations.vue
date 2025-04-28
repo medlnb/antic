@@ -43,7 +43,7 @@
         <h1 class="text-[45px] text-[#534B42] merriweather font-light flex-1">
           Inspirations
         </h1>
-        <p class="flex-1 text-[18px] text-secondary varta mb-8">
+        <p class="flex-1 text-[18px] text-secondary varta mb-10">
           Our experts are keen to stay on top of trends in order to offer you
           new inspirations for your interior and exterior every day. Remember
           that to inspire you we have to inspire ourselves and we want to share

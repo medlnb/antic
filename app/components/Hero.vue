@@ -1,4 +1,10 @@
 <template>
+  <!-- href="tel:911"-->
+  <img
+        src="../assets/svg/Contact.svg"
+        alt="Contact"
+        class="absolute top-20 right-10 z-20 hover:scale-125 duration-200 cursor-pointer hidden lg:block"
+      />
   <div class="h-svh relative lg:text-black text-white">
     <!-- background -->
     <img

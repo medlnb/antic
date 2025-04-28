@@ -12,7 +12,7 @@
     </div>
     <div class="flex-1 lg:grid flex flex-col lg:grid-cols-2 gap-4">
       <div v-for="item in data" :key="item.title">
-        <h3 class="text-[25px] font-semibold text-primary dont-varta pb-3">
+        <h3 class="text-[25px] font-semibold text-primary varta pb-3">
           {{ item.title }}
         </h3>
         <p class="text-[18px] text-success varta">

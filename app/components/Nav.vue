@@ -1,12 +1,13 @@
 <template>
   <header class="flex justify-between items-center">
-    <nav>
-      <ul class="flex items-center gap-8">
-        <li
-          class="text-[34px] merriweather lg:text-primary text-white font-bold hover:scale-105 duration-200 cursor-pointer"
-        >
-          <NuxtLink to="/">antic</NuxtLink>
-        </li>
+    <nav class="lg:w-1/2 flex justify-between items-center">
+      <NuxtLink
+        to="/"
+        class="text-[34px] merriweather lg:text-primary text-white font-bold hover:scale-105 duration-200 cursor-pointer"
+        >antic</NuxtLink
+      >
+
+      <ul class="flex justify-between items-center flex-1 px-6">
         <li
           v-for="link in navLinks"
           :key="link.label"
@@ -18,12 +19,6 @@
     </nav>
 
     <div class="relative">
-      <!-- href="tel:911"-->
-      <img
-        src="../assets/svg/Contact.svg"
-        alt="Contact"
-        class="hover:scale-125 duration-200 cursor-pointer hidden lg:block"
-      />
       <button
         class="hover:scale-125 duration-200 cursor-pointer lg:hidden text-5xl"
         @click="handleToggleMenu"

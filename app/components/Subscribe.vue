@@ -4,12 +4,12 @@
       class="lg:flex justify-between items-center max-w-[1140px] mx-auto px-6 pt-20"
     >
       <div>
-        <h1
-          class="text-[35px] text-[#121212] merriweather font-light mb-[15px]"
-        >
+        <h1 class="text-[35px] text-[#121212] merriweather font-light">
           Be aware of the latest trends
         </h1>
-        <h3 class="text-[18px] text-success varta mb-[10px]">
+        <h3
+          class="text-[18px] text-success varta my-[16px] lg:mt-[15px] lg:mb-2.5"
+        >
           Stay informed of new trends, but also of our various offers.
         </h3>
         <NuxtLink to="/" class="text-[17px] text-primary karla font-bold">
@@ -21,7 +21,7 @@
           type="email"
           v-model="email"
           placeholder="email@address.com"
-          class="bg-[#F3EEE84D] text-[18px] text-success varta p-2 px-4 mr-4 mb-2 outline-none lg:w-auto w-full"
+          class="bg-[#F3EEE84D] text-[18px] text-success varta p-2 px-4 mr-4 lg:my-0 mb-4 mt-8 outline-none lg:w-auto w-full"
         />
 
         <button
